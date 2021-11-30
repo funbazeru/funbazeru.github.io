@@ -1,0 +1,70 @@
+@font-face {
+	font-family: "Coolvetica"; 
+	src: url("fonts/Coolvetica.ttf"); 
+	font-style: normal; 
+	font-weight: normal; 
+} 
+
+body {
+	font-family: "Coolvetica", serif;
+	background-image: url("resources/background.png");
+	background-position: center center;    
+	background-repeat: no-repeat;    
+	background-attachment: fixed;    
+	background-size: cover;
+}
+
+.brow {
+	background-color: rgba(16, 18, 20, 0.9);
+	width: 100%;
+	min-height: 50px;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: 0 auto;
+	-webkit-touch-callout: none; 
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+	user-select: none;
+	z-index: 9999;
+	display: block;
+	backdrop-filter: blur(1.6px);
+}
+
+.logo {
+	position: absolute;
+	left: 25%;
+	top: -25px;
+	font-size: 30px;
+	letter-spacing: 1px;
+	transform: scale(1);
+	cursor: pointer;
+}
+
+.links {
+	position: absolute;
+	left: 60%;
+	top: 12px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.links a {
+	color: grey;
+	text-decoration: none;
+}
+
+.link {
+	transition: color .2s ease, text-shadow .2s ease;
+	margin-left: 20px;
+}
+
+.link:hover {
+	color: white;
+	text-shadow: 0 0 3px white;
+}
