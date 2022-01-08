@@ -1,10 +1,48 @@
-  
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
-    <title>FunBaze.ru</title>
+    <meta charset="utf-8">
+    <title>FunBaze - Классический RolePlay</title>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--  Шрифт Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
   </head>
   <body>
-    <p>Добро пожаловать на FunBaze.ru</p>
+      <div class="brow">
+        <div class="logo">
+          <p data-title="Нажмите, чтобы скопировать IP" id="logoButton" onclick="copyIp()" ><font color="white" size=2px>play.</font><font color="yellow">Fun</font><font color="lime">Baze</font><font color="white"><font color="white" size=2px>.ru</font></font></p>
+        </div>
+        <div class="links">
+				    <a href="help.html"><font class="link" color="grey">Помощь</font></a>
+				    <a href="rules.html"><font class="link" color="grey">Правила</font></a>
+				    <a href="vip.html"><font class="link" color="grey">VIP</font></a>
+			  </div>
+
+        <img src="resources/vip.jpg" alt="Жестокая правда" id="vipImg">
+
+        <div class="mainContent">
+            <h3>Что такое FunBaze?</h3>
+
+          <p>FunBaze — сервер Minecraft, воссозданный в жанре DarkRP (игры по ролям) из вселенной Garry`s Mod. Действие проходит в России, а именно в городе Червецке.
+
+Ты можешь быть добропорядочным и послушным гражданином или бездомным, скитающимся по улицам в поисках ночлега, пищи и других прелестей жизни. Можешь поступить на службу в правоохранительные органы, предоставляя безопасность горожанам и всему городу, а также контролируя соблюдение законов. Всегда можно заставить полицию поработать, выбрав роль криминала: совершай грабежи, убийства или устраивай беспорядки в городе путём проведения политики террора! Обеспечь продовольствием весь город, став поваром. Улучши здравоохранение в городе, играя за доктора или организуй свой бизнес, выбрав роль бизнесмена! В конце концов, можешь стать мэром, победив на выборах. Управляй вверенным тебе городом: координируй работу правоохранительных органов, регулируй сферу жизни горожан, вводи законы!
+
+На сервере реализованы механики из реальной жизни: банкоматы, аренда квартир, ведение бизнеса, покупка оружия и ещё огромное множество другого! Скорее подключайся к игре! IP: play.funbaze.ru (подключение к серверу доступно с версии 1.12.2)</p>
+
+
+        </div>
+
+      </div>
+
+      <script>
+      function copyIp() {
+        navigator.clipboard.writeText("play.FunBaze.ru");
+      }
+</script>
   </body>
 </html>
