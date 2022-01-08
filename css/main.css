@@ -2,7 +2,7 @@ body{
   font-family: Montserrat, sans-serif;
 
   background-color: #d9d9d9;
-  background: url("../resources/background.png") no-repeat;
+  background: url("../css/resources/background.png") no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
